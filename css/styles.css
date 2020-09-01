@@ -1,0 +1,148 @@
+body{
+   text-align: center;
+   font-family: 'Merriweather', serif;
+   margin: 0;
+
+}
+h1{
+  font-size:5.625rem;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+h3{
+  color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #440047 6px;
+  width: 4%;
+  border-bottom:none;
+  margin: 150px auto;
+}
+
+a{
+  text-decoration: none;
+  margin: 10px;
+}
+
+a:hover{
+  color:white;
+}
+
+
+.top-container{
+  background-color: #f1f3f8;
+  padding-top: 100px;
+  position: relative;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+.middle-container{
+  margin:100px auto;
+
+}
+
+.bottom-container{
+  background-color:#4e89ae;
+  padding: 50px 0;
+}
+
+.top-cloud{
+  position: absolute;
+  right:350px;
+  top:40px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom:300px;
+}
+
+.intro{
+  width: 20%;
+  margin: 10px auto;
+}
+.mypic{
+  height: 300px;
+  width: 300px;
+  
+  margin-top: 10px;
+}
+
+.webpic{
+  height:200px;
+  width:25%;
+  border-radius:100%;
+  float: left;
+  margin-right: 30px;
+
+}
+.chick65{
+  height: 150px;
+  width: 25%;
+  border-radius:100%;
+  float: right;
+  margin-left:30px;
+}
+
+.contact-description{
+  width:30%;
+  margin: 10px auto 60px;
+
+}
+.contact-me{
+  margin-bottom: 100px;
+}
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #2093e0;
+   background: -webkit-gradient(linear, left top, left bottom, from(#173447), to(#2093e0));
+   background: -webkit-linear-gradient(top, #173447, #2093e0);
+   background: -moz-linear-gradient(top, #173447, #2093e0);
+   background: -ms-linear-gradient(top, #173447, #2093e0);
+   background: -o-linear-gradient(top, #173447, #2093e0);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #010a12;
+   font-size: 14px;
+   font-family: 'Merriweather', serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #282978;
+   background: #282978;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b5c41;
+   background: #1b5c41;
+   }
+
+.final-description{
+  color:white;
+}
